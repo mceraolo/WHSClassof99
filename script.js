@@ -50,7 +50,9 @@ $(document).ready(function() {
     }
   });
 
-
+  $('#Guestmodal').on('shown.bs.modal', function() {
+    $('#myInput').focus()
+  })
 
 
 });
