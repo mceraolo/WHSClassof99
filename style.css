@@ -103,6 +103,12 @@ header {
   margin: auto;
 }
 
+.mission-link {
+  color: rgb(216, 37, 37);
+  font-size: 14px;
+  transition: all .3s;
+}
+
 .fromLeft {
   animation-name: fromLeft;
   animation-duration: 3s;
@@ -194,21 +200,13 @@ footer {
 }
 
 .footer-link:hover {
-  color: #e91313;
+  color: #e97979;
   text-decoration: none;
 }
 /* end of footer */
 
 
-/* register page */
-.registerpg {
-  background: #e70606;
-}
 
-.registerpagetext {
-  color: white;
-
-}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -225,7 +223,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: red;
   color: white;
   padding: 12px 20px;
   border: none;
