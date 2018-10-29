@@ -297,7 +297,15 @@
         <div class="col-lg-5 col-sm-6">
           <h6 id="tagtoAboutThisPage" class="pb-3 text-light">About This Page</h6>
           <p class="med">This site was created for all of the 1999 graduates of Weir High School. This site will be periodically updated to reflect any changes with the 20 year class reunion.</p>
+          <p> If you'd like to stay connected on future happenings please follow us on Facebook!</p>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="https://www.facebook.com/groups/55133783261/" target="_blank"> <i class="fab fa-facebook-square fa-2x text-primary"></i></a>
+              </li>
+              <li class="list-inline-item"><i class="fab fa-instagram fa-2x text-danger"></i>
+              </li>
+            </ul>
         </div>
+        
         <div class="col-lg-2 col-sm-6">
           <h6 class="pb-3 text-light">Visit Us</h6>
           <ul class="list-unstyled">
@@ -317,29 +325,34 @@
               <a href="#tagtoGuestList" class="footer-link">Guest List</a>
             </li>
             <li>
-              <a href="#tagtoAboutThisPage" class="footer-link " data-toggle="modal" data-target="#Contactmodal">Contact </a>
+              <!--<a href="mailto:mceraolo@gmail.com" class="footer-link">Contact </a>-->
+              <form action="https://formspree.io/mceraolo@gmail.com" method="POST" class="footer-link">Contact </a>
             </li>
           </ul>
         </div>
         <div class="col-lg-5 col-sm-6">
           <h6 class="pb-3 text-light">Stay Connected</h6>
-          <p class="med">If you'd like to stay connected on future happenings please follow us on Facebook!</p>
-          <!-- 
+          <p class="med">If you plan on attending, let us know and we'll add your name to the Guest List section.  </p>
+          
+
+          <!--
           <form class="mb-3">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Email Address">
+              <form action="https://formspree.io/mceraolo@gmail.com?subjectEmail%20Subject>I plan on coming to the reunion." method="POST">
+              <input type="email" name ="email" class="form-control" placeholder="Email Address">
               <div class="input-group-append">
-                <button type="button" class="btn bg-danger text-white text-uppercase font-weight-bold">Sign Up</button>
+                
+                <button type="submit" class="btn bg-danger text-white text-uppercase font-weight-bold">I'm attending</button>
               </div>
             </div>
           </form>
           -->
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.facebook.com/groups/55133783261/" target="_blank"> <i class="fab fa-facebook-square fa-2x text-primary"></i></a>
-            </li>
-            <li class="list-inline-item"><i class="fab fa-instagram fa-2x text-danger"></i>
-            </li>
-          </ul>
+          <form method="POST" action="https://formspree.io/mceraolo@gmail.com?subjectEmail%20Subject>I plan on coming to the reunion.">
+            <input type="email" name="email" placeholder="Your email">
+            <textarea name="message" placeholder="Your message"></textarea>
+            <button type="submit" class="btn bg-danger text-white text-uppercase font-weight-bold">I'm attending</button>
+          </form> 
+
          </div>
       </div>
       <div class="row">
@@ -352,7 +365,7 @@
   <!-- end of footer -->
 
   
-   <!--email modal-->
+   <!--email modal
    
    <div class="modal fade " id="Contactmodal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
@@ -389,7 +402,7 @@
                         id="message" placeholder="Your Message Here"
                         maxlength="6000" rows="7"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-lg btn-success btn-block" id="btnContactUs">Send <i class="fas fa-envelope-square"></i></button>
+                    <button type="submit" class="btn btn-lg btn-success btn-block" id="btnContactUs">Send <a href="mailto:mceraolo@gmail.com"></a><i class="fas fa-envelope-square"></i></button>
             
                 </form>
                 <div id="success_message" style="width:100%; height:100%; display:none; ">
@@ -401,7 +414,7 @@
                     Sorry there was an error sending your form.
                 </div>
             </div>
-   
+   -->
   <!--end modal-->
   
 
