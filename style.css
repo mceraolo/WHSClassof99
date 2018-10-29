@@ -160,11 +160,18 @@ header {
 }
 /* end of gallery */
 
-/* customers */
-.customers {
+/* classmates */
+.classmates {
   background: #151f20;
 }
-/* end of customers */
+
+  /* Style to reverse the caret icon from pointing downwards to upwards */
+  .caret.caret-up {
+    border-top-width: 0;
+    border-bottom: 4px solid #fff;
+  }
+
+/* end of classmates */
 
 
 /***** FAQ *****/
