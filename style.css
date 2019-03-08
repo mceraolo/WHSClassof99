@@ -13,9 +13,12 @@ header {
 /* navbar */
 .nav-menu {
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5));
-  padding: 30px;
-  transition: all .7s;
+  padding: 10px;
+  transition: all .5s;
 }
+
+
+
 
 .menu-item {
   font-size: 13px;
@@ -143,6 +146,13 @@ header {
 /* end of mission */
 
 /* gallery */
+
+.carousel{
+  width:640px;
+  height:360px;
+  margin: 0 auto;
+}
+
 .underline-dark {
   width: 150px;
   border: 3px solid #888;
@@ -242,21 +252,3 @@ input[type=submit] {
   background-color: #c2c3c4;
   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
