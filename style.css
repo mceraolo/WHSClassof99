@@ -12,7 +12,9 @@ header {
 
 /* navbar */
 .nav-menu {
-  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5));
+  /* background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)); */
+  background: #000000;
+
   padding: 10px;
   transition: all .5s;
 }
